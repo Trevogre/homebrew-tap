@@ -3,15 +3,15 @@ class Disscli < Formula
 
   desc "A Discord CLI tool for sending messages via webhooks"
   homepage "https://github.com/Trevogre/discordcli"
-  url "https://github.com/Trevogre/discordcli/archive/refs/tags/v0.1.2.tar.gz"
-  sha256 "da92b4dbdf165147ea8bd4b35b1dd01bc398f4f1da11308e4f2d28c112bcf7ca"
+  url "https://github.com/Trevogre/discordcli/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "eea7dde37cf7d644c1df922c4f4fd349dfc3f66c8cccf8fa4dd1ee215a5bf8c2"
   license "MIT"
 
   depends_on "python@3.13"
 
   resource "requests" do
     url "https://files.pythonhosted.org/packages/9d/be/10918a2eac4ae9f02f6cfe6414b7a155ccd8f7f9d4380d62fd5b955065c3/requests-2.31.0.tar.gz"
-    sha256 "da92b4dbdf165147ea8bd4b35b1dd01bc398f4f1da11308e4f2d28c112bcf7ca"
+    sha256 "eea7dde37cf7d644c1df922c4f4fd349dfc3f66c8cccf8fa4dd1ee215a5bf8c2"
   end
 
   def install
